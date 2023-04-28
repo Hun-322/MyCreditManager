@@ -19,7 +19,7 @@ func menuManager() {
         case Menu.성적삭제.rawValue: deleteScore()
         case Menu.평점보기.rawValue: scoreView()
         case Menu.종료.rawValue: endMenu()
-        default: print(menuString.논외입력)
+        default: print(error.논외입력)
         }
     }
 }

@@ -11,14 +11,14 @@ func addScore() {
     print("\(addScoreString.안내1)\n\(addScoreString.안내2)\n\(addScoreString.안내3)")
     
     guard let inputArr = readLine()?.split(separator: " ").map({String($0)}), inputArr.count == 3 else {
-        print(addScoreString.논외입력)
+        print(error.입력오류)
         return
     }
     
     let name = inputArr[0], subjectName = inputArr[1], score = Score.castScore(inputArr[2])
     
     if score == "err" {
-        print(addScoreString.논외입력)
+        print(error.입력오류)
         return
     }
         
@@ -26,7 +26,7 @@ func addScore() {
         arr[index].subject.updateValue(score, forKey: subjectName)
         print("\(name) 학생의 \(subjectName) 과목이 \(score)로 추가(변경)되었습니다.")
     }else {
-        print(addScoreString.논외입력)
+        print(error.입력오류)
     }
     
     

@@ -13,7 +13,7 @@ func deleteStudent() {
     guard let name = readLine() else { return }
     
     if name == "" {
-        print(deleteStudentString.논외입력)
+        print(error.입력오류)
         return
     }
     

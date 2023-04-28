@@ -8,5 +8,5 @@
 import Foundation
 
 func deleteScore() {
-    print(#function)
+    
 }
