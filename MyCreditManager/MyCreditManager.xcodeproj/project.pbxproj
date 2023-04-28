@@ -89,12 +89,7 @@
 			isa = PBXGroup;
 			children = (
 				54F420FD29FBB90400F62645 /* MenuManager.swift */,
-				54F4210629FBC5BF00F62645 /* AddStudent.swift */,
-				54F4210829FBC60E00F62645 /* DeleteStudent.swift */,
-				54F4210A29FBC69700F62645 /* AddScore.swift */,
-				54F4210C29FBC6AC00F62645 /* DeleteScore.swift */,
-				54F4210E29FBC6F200F62645 /* ScoreView.swift */,
-				54F4211029FBC7BF00F62645 /* EndMenu.swift */,
+				54F4211229FBCD4000F62645 /* Features */,
 			);
 			path = Menu;
 			sourceTree = "<group>";
@@ -114,6 +109,19 @@
 				54F4210429FBBC9C00F62645 /* MenuType.swift */,
 			);
 			path = CodingManager;
+			sourceTree = "<group>";
+		};
+		54F4211229FBCD4000F62645 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				54F4210629FBC5BF00F62645 /* AddStudent.swift */,
+				54F4210829FBC60E00F62645 /* DeleteStudent.swift */,
+				54F4210A29FBC69700F62645 /* AddScore.swift */,
+				54F4210C29FBC6AC00F62645 /* DeleteScore.swift */,
+				54F4210E29FBC6F200F62645 /* ScoreView.swift */,
+				54F4211029FBC7BF00F62645 /* EndMenu.swift */,
+			);
+			path = Features;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
