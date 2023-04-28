@@ -18,10 +18,12 @@ func addStudent() {
     }
     
     if arr.contains(where: {$0.name == name}) {
-        print("\(name)\(addStudentString.종복오류)")
+        print("\(name)\(addStudentString.중복오류)")
+        print(arr)
     }else {
         arr.append(Student(name: name))
-        print("\(name) \(addStudentString.추가완료)")
+        print("\(name) \(addStudentString.추가성공)")
+        print(arr)
     }
     
 }

@@ -16,6 +16,13 @@ enum menuString {
 enum addStudentString {
     static let 안내 = "추가할 학생의 이름을 입력해주세요"
     static let 논외입력  = "입력이 잘못되었습니다. 다시 확인해주세요."
-    static let 추가완료  = "학생을 추가했습니다."
-    static let 종복오류  = "은 이미 존재하는 학생입니다. 추가하지 않습니다."
+    static let 추가성공  = "학생을 추가했습니다."
+    static let 중복오류  = "은 이미 존재하는 학생입니다. 추가하지 않습니다."
+}
+
+enum deleteStudentString {
+    static let 안내 = "삭제할 학생의 이름을 입력해주세요"
+    static let 논외입력  = "입력이 잘못되었습니다. 다시 확인해주세요."
+    static let 삭제성공 = "학생을 삭제하였습니다."
+    static let 삭제실패 = "학생을 찾지 못했습니다."
 }
