@@ -7,7 +7,7 @@
 
 import Foundation
 
-func startMenu() {    
+func menuManager() {    
     while true {
         print(startString.안내메시지)
         print(startString.메뉴)

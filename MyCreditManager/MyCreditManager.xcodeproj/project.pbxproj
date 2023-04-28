@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		54F420F429FBB1A600F62645 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54F420F329FBB1A600F62645 /* main.swift */; };
 		54F420FB29FBB69200F62645 /* StringConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54F420FA29FBB69200F62645 /* StringConstants.swift */; };
-		54F420FE29FBB90400F62645 /* StartMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54F420FD29FBB90400F62645 /* StartMenu.swift */; };
+		54F420FE29FBB90400F62645 /* MenuManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54F420FD29FBB90400F62645 /* MenuManager.swift */; };
 		54F4210229FBBA0B00F62645 /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54F4210129FBBA0B00F62645 /* Student.swift */; };
 		54F4210529FBBC9C00F62645 /* MenuType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54F4210429FBBC9C00F62645 /* MenuType.swift */; };
 		54F4210729FBC5BF00F62645 /* AddStudent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54F4210629FBC5BF00F62645 /* AddStudent.swift */; };
@@ -36,7 +36,7 @@
 		54F420F029FBB1A600F62645 /* MyCreditManager */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MyCreditManager; sourceTree = BUILT_PRODUCTS_DIR; };
 		54F420F329FBB1A600F62645 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		54F420FA29FBB69200F62645 /* StringConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringConstants.swift; sourceTree = "<group>"; };
-		54F420FD29FBB90400F62645 /* StartMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartMenu.swift; sourceTree = "<group>"; };
+		54F420FD29FBB90400F62645 /* MenuManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuManager.swift; sourceTree = "<group>"; };
 		54F4210129FBBA0B00F62645 /* Student.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
 		54F4210429FBBC9C00F62645 /* MenuType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuType.swift; sourceTree = "<group>"; };
 		54F4210629FBC5BF00F62645 /* AddStudent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddStudent.swift; sourceTree = "<group>"; };
@@ -88,7 +88,7 @@
 		54F420FC29FBB89600F62645 /* Menu */ = {
 			isa = PBXGroup;
 			children = (
-				54F420FD29FBB90400F62645 /* StartMenu.swift */,
+				54F420FD29FBB90400F62645 /* MenuManager.swift */,
 				54F4210629FBC5BF00F62645 /* AddStudent.swift */,
 				54F4210829FBC60E00F62645 /* DeleteStudent.swift */,
 				54F4210A29FBC69700F62645 /* AddScore.swift */,
@@ -178,7 +178,7 @@
 				54F4210929FBC60E00F62645 /* DeleteStudent.swift in Sources */,
 				54F420FB29FBB69200F62645 /* StringConstants.swift in Sources */,
 				54F420F429FBB1A600F62645 /* main.swift in Sources */,
-				54F420FE29FBB90400F62645 /* StartMenu.swift in Sources */,
+				54F420FE29FBB90400F62645 /* MenuManager.swift in Sources */,
 				54F4210229FBBA0B00F62645 /* Student.swift in Sources */,
 				54F4210B29FBC69700F62645 /* AddScore.swift in Sources */,
 				54F4210D29FBC6AC00F62645 /* DeleteScore.swift in Sources */,
