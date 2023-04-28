@@ -9,9 +9,9 @@ import Foundation
 
 struct Subject {
     let name: String
-    var score: Double
+    var score: String
     
-    init(name: String, score: Double) {
+    init(name: String, score: String) {
         self.name = name
         self.score = score
     }

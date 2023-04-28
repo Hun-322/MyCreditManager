@@ -27,6 +27,13 @@ enum deleteStudentString {
     static let 삭제실패 = "학생을 찾지 못했습니다."
 }
 
+enum addScoreString {
+    static let 안내1 = "성적을 추가할 학생의 이름, 과목 이름, 성적(A+, A, F 등)을 띄어쓰기로 구분하여 차례로 작성해주세요."
+    static let 안내2 = "입력 예) Mickey Swift A+"
+    static let 안내3 = "만약에 학생의 성적 중 해당 과목이 존재하면 기존 점수가 갱신됩니다."
+    static let 논외입력  = "입력이 잘못되었습니다. 다시 확인해주세요."
+}
+
 enum endMenuString {
     static let 종료 = "프로그램을 종료합니다..."
 }

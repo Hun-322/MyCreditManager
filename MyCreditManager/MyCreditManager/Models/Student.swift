@@ -9,7 +9,7 @@ import Foundation
 
 struct Student {
     let name: String
-    var subjects: [Subject] = []
+    var subject: [String: Score.RawValue] = [:]
     
     init(name: String) {
         self.name = name

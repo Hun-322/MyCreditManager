@@ -10,8 +10,7 @@ import Foundation
 func menuManager() {
     
     while true {
-        print(menuString.안내)
-        print(menuString.메뉴)
+        print("\(menuString.안내)\n\(menuString.메뉴)")
         
         switch readLine() {
         case Menu.학생추가.rawValue: addStudent()

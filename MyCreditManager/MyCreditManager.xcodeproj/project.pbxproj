@@ -18,7 +18,7 @@
 		54F4210D29FBC6AC00F62645 /* DeleteScore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54F4210C29FBC6AC00F62645 /* DeleteScore.swift */; };
 		54F4210F29FBC6F200F62645 /* ScoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54F4210E29FBC6F200F62645 /* ScoreView.swift */; };
 		54F4211129FBC7BF00F62645 /* EndMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54F4211029FBC7BF00F62645 /* EndMenu.swift */; };
-		54F4211429FBE7AB00F62645 /* Subject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54F4211329FBE7AB00F62645 /* Subject.swift */; };
+		54F4211829FC1E6400F62645 /* ScoreType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54F4211729FC1E6400F62645 /* ScoreType.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -46,7 +46,7 @@
 		54F4210C29FBC6AC00F62645 /* DeleteScore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeleteScore.swift; sourceTree = "<group>"; };
 		54F4210E29FBC6F200F62645 /* ScoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreView.swift; sourceTree = "<group>"; };
 		54F4211029FBC7BF00F62645 /* EndMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndMenu.swift; sourceTree = "<group>"; };
-		54F4211329FBE7AB00F62645 /* Subject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Subject.swift; sourceTree = "<group>"; };
+		54F4211729FC1E6400F62645 /* ScoreType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreType.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,7 +100,6 @@
 			isa = PBXGroup;
 			children = (
 				54F4210129FBBA0B00F62645 /* Student.swift */,
-				54F4211329FBE7AB00F62645 /* Subject.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -110,6 +109,7 @@
 			children = (
 				54F420FA29FBB69200F62645 /* StringConstants.swift */,
 				54F4210429FBBC9C00F62645 /* MenuType.swift */,
+				54F4211729FC1E6400F62645 /* ScoreType.swift */,
 			);
 			path = CodingManager;
 			sourceTree = "<group>";
@@ -185,11 +185,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				54F4211829FC1E6400F62645 /* ScoreType.swift in Sources */,
 				54F4210529FBBC9C00F62645 /* MenuType.swift in Sources */,
 				54F4210929FBC60E00F62645 /* DeleteStudent.swift in Sources */,
 				54F420FB29FBB69200F62645 /* StringConstants.swift in Sources */,
 				54F420F429FBB1A600F62645 /* main.swift in Sources */,
-				54F4211429FBE7AB00F62645 /* Subject.swift in Sources */,
 				54F420FE29FBB90400F62645 /* MenuManager.swift in Sources */,
 				54F4210229FBBA0B00F62645 /* Student.swift in Sources */,
 				54F4210B29FBC69700F62645 /* AddScore.swift in Sources */,
