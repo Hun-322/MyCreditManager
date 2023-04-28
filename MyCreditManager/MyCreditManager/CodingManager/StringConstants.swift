@@ -26,3 +26,7 @@ enum deleteStudentString {
     static let 삭제성공 = "학생을 삭제하였습니다."
     static let 삭제실패 = "학생을 찾지 못했습니다."
 }
+
+enum endMenuString {
+    static let 종료 = "프로그램을 종료합니다..."
+}

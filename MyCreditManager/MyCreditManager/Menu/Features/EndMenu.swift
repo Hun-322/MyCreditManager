@@ -8,5 +8,6 @@
 import Foundation
 
 func endMenu() {
-    print(#function)
+    print(endMenuString.종료)
+    exit(0)
 }
